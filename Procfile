@@ -1,1 +1,1 @@
-web: npm run server
+web: ts-node --respawn --transpile-only ./src/index.ts
